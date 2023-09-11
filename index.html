@@ -1,40 +1,114 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>Crunch</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/serif.css" />
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+    <style>
+      .crunch-title {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!--Title slide-->
+        <section
+          data-autoslide="4000"
+          data-background-video="../src/mixkit-gaming-developer-works-on-3d-graphics-in-office-5480-medium.mp4"
+          data-background-video-loop
+          data-background-video-muted
+        >
+          <h4 class="crunch-title fragment">Crunch in the game industry</h4>
+        </section>
+        <!--This is slide 2-->
+        <section data-autoslide="false">
+          <section data-auto-animate>What is Crunch?</section>
+          <section data-auto-animate>
+            <h6>
+              Crunch
+              <br />
+              /krʌn(t)ʃ/
+            </h6>
+            <p>
+              crush (a hard or brittle foodstuff) with the teeth, making a loud
+              but muffled grinding sound.
+            </p>
+          </section>
+          <section data-auto-animate>What is Crunch in game Industry?</section>
+          <section>
+            compulsory overtime that game developer have to put in during
+            development of a game
+          </section>
+        </section>
+        <!--This is slide 3-->
+        <section>
+          <section>
+            Crunch in game industry refers to a intense and extended period of
+            time in which game developers are expected to put in unsustainable
+            work hours in high pressure work conditions
+          </section>
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+          <section data-auto-animate>
+            <p>
+              A typical work week is <span style="color: red">40-hours</span> in
+              week
+            </p>
+          </section>
+
+          <section data-auto-animate>
+            <p>
+              A typical work week is <span style="color: red">40-hours</span> in
+              week
+            </p>
+            <p>
+              crunch can lead to work weeks of
+              <span style="color: red">65-80 hours</span>
+            </p>
+          </section>
+        </section>
+
+        <!--This is slide 4-->
+        <section>
+          <section>Prevalance of crunch</section>
+        </section>
+
+        <!--This is slide 5-->
+        <section>
+          <section>Causes of crunch</section>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        autoSlide: 2000,
+        loop: true,
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
 </html>
