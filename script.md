@@ -107,6 +107,24 @@ The intense workload can partly be traced to a shift to a microtransaction model
 - Discuss how crunch can affect the quality of games, leading to bugs and glitches
 
 
+https://www.youtube.com/watch?v=C-pQUocvE4Y
+
+So that brings us to what effect does it have on developers in the industry.
+
+
+1st it can lead to burnout
+prolonged preoids of working long hours and even weekedns eventual lead to server fatigue and eventually buronout
+
+2 nd it can lead to depression
+The pressure to meet tight deadlines and deliver high-quality work can lead to extreme stress levels.which lowers morlale and jobs satisfaction which evenutally lead to depressoin
+
+Anxiety: Constant pressure and fear of failing to meet expectations can result in anxiety disorders.
+
+it can also lead to 
+sleep deprivation which can lead to serius health issue over time like impair cognitive function and decision-making.
+
+
+
 Crunch leads to burnout which can have adverse effects on both a team and the individual
 
 it leads to loss of productivity and in some cases, depression, anxiety, and panic attacks.

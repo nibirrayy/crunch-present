@@ -21,6 +21,15 @@
         background-color: rgba(255, 255, 255, 0.9);
         padding: 2em;
       }
+      .flex-container {
+        display: flex;
+        height: 450px;
+        justify-content: center;
+        align-items: center;
+      }
+      .flex-item {
+        padding: 20px;
+      }
     </style>
   </head>
   <body>
@@ -29,7 +38,7 @@
         <!--Title slide-->
         <section
           data-autoslide="4000"
-          data-background-video="../src/mixkit-gaming-developer-works-on-3d-graphics-in-office-5480-medium.mp4"
+          data-background-video="./src/mixkit-gaming-developer-works-on-3d-graphics-in-office-5480-medium.mp4"
           data-background-video-loop
           data-background-video-muted
         >
@@ -84,12 +93,74 @@
 
         <!--This is slide 4-->
         <section>
-          <section>Prevalance of crunch</section>
+          <section data-auto-animate><h5>Prevalance of crunch</h5></section>
+          <section data-auto-animate>
+            <h5>Prevalance of crunch</h5>
+            Crunch in common amoung the industry
+          </section>
+          <section data-auto-animate>
+            <h5>Prevalance of crunch</h5>
+            <div class="flex-container">
+              <img class="flex-item" src="./src/fortnite.jpg" alt="" />
+              <img class="flex-item" src="./src/read-dead.jpg" alt="" />
+            </div>
+          </section>
+          <section data-auto-animate>
+            <h5>Prevalance of crunch</h5>
+            Terms such as "stress casualties" were coined at Bioware
+          </section>
         </section>
 
         <!--This is slide 5-->
         <section>
-          <section>Causes of crunch</section>
+          <section data-auto-animate><h5>Causes of crunch</h5></section>
+          <section data-auto-animate>
+            <h5>Causes of crunch</h5>
+            <ul>
+              <li>Highly Profitable industry</li>
+              <li>Profit incentives</li>
+              <li>Cost cutting measures</li>
+              <li>Deadline pressure</li>
+            </ul>
+          </section>
+        </section>
+
+        <!--This is slide 6-->
+        <section>
+          <section data-auto-animate><h5>Effects of crunch</h5></section>
+          <section data-auto-animate>
+            <h5>Effects of crunch</h5>
+            <ul>
+              <li>Burnouts</li>
+              <li>Depression</li>
+              <li>Anxiety disorder</li>
+              <li>Sleep Deprivation</li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <h5>Effects of crunch</h5>
+            <a
+              href="https://www.youtube.com/watch?v=C-pQUocvE4Y"
+              target="_blank"
+              >https://www.youtube.com/watch?v=C-pQUocvE4Y</a
+            >
+          </section>
+        </section>
+
+        <!--This is slide 7-->
+        <section>
+          <section data-auto-animate>
+            <h5>What can we do?</h5>
+          </section>
+          <section data-auto-animate>
+            <h5>What can we do?</h5>
+            <ul>
+              <li>Stay Informed</li>
+              <li>Support Ethical Companies</li>
+              <li>Promote Healthy Game Culture</li>
+              <li>Engage in Conversations</li>
+            </ul>
+          </section>
         </section>
       </div>
     </div>
@@ -106,6 +177,7 @@
         hash: true,
         autoSlide: 2000,
         loop: true,
+        autoPlayMedia: true,
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
       });
